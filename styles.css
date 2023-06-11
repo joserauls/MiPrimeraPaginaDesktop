@@ -1,0 +1,66 @@
+body {
+    background-color: aquamarine;
+    color: darkblue;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+.logo {
+    width: 600px;
+    height: 250px;
+    padding: 20px;
+}
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: red;
+    font-size: 36px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Georgia', serif;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+}
+p {
+    color: blue;
+    font-size: 25px;
+    padding: 10px;
+}
+.ejemplo {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 100px 200px 0px 0px
+}
+.box {
+    background-color: lightgrey;
+    width: 300px;
+    height: 150;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 50px;    
+}
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+    }
+}
+@media (max-width: 600px) {
+    .box {
+        width: 400px;
+        height: 200px;
+    }
+}
